@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.authors = {"张志超"=>"zhangzhichao@mudu.tv"}
   s.homepage = "https://mudu.tv"
   s.description = "TODO: Add long description of the pod here."
-  s.source = { :git => 'https://git.mudu.tv/myun/mrtc-framework.git', :tag => s.version.to_s }
+  s.source = { :git => 'https://github.com/mudutv/Mrtc-ios-sdk.git', :tag => s.version.to_s }
 
   s.ios.deployment_target    = '9.0'
   s.ios.vendored_framework   = 'ios/MRTC.framework'
