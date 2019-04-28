@@ -83,12 +83,12 @@ typedef NS_ENUM(NSUInteger, MRTCPushState) {
 - (void)setMaxBitrate:(NSUInteger)bitrate;
 
 /**
- Stop push video and audio stream
+ Stop push video stream
  */
 - (void)pause;
 
 /**
- Resume push video and audio stream
+ Resume push video stream
  */
 - (void)resume;
 
