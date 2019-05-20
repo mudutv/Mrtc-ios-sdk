@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "MRTC"
-  s.version = "1.1.0"
+  s.version = "1.1.1"
   s.summary = "A stream SDK of MuDu"
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"张志超"=>"zhangzhichao@mudu.tv"}
