@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "MRTC"
-  s.version = "1.1.1"
+  s.version = "1.1.2"
   s.summary = "A stream SDK of MuDu"
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"张志超"=>"zhangzhichao@mudu.tv"}
@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   # s.frameworks = 'AVFundation','UIKit','CoreMedia'
   s.frameworks = 'CoreMedia','AVFoundation'
   s.dependency 'GoogleWebRTC','1.1.27121'
+  s.dependency 'SocketRocket'
   s.pod_target_xcconfig = {
       'ENABLE_BITCODE' => 'NO',
       'VALID_ARCHS' => 'arm64 arm64e armv7s',
