@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MRTCPusher.h"
-#import "MRTCPuller.h"
-#import "MRTCSetting.h"
-#import "MRTCCodec.h"
-#import "MRTCError.h"
+#import <MRTC/MRTCPusher.h>
+#import <MRTC/MRTCPuller.h>
+#import <MRTC/MRTCSetting.h>
+#import <MRTC/MRTCCodec.h>
+#import <MRTC/MRTCError.h>
 
 //! Project version number for MRTC.
 FOUNDATION_EXPORT double MRTCVersionNumber;
